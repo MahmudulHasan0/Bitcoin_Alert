@@ -12,9 +12,12 @@ set **below** to that number.
 
 # Enter Email Addresses:
 **senderEmail** is your email address. 
+
 **receiverEmail** is the email address of the reciever.
+
 **senderPass**  is your email password.  
 
 # Autharizing Coinbase API:
-**API_KEY = 'GET THE KEY FROM COINBASE'**	 
+**API_KEY = 'GET THE KEY FROM COINBASE'**	
+
 **API_SECRET = 'GET THE KEY FROM COINBASE'**
