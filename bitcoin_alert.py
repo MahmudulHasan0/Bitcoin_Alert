@@ -4,10 +4,10 @@ from requests.auth import AuthBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-below = 0   #If bitcoin price is below this #, send me a alert (change over to 0)
-over = 0	  #If bitcoin price is under this #, send me a alert (change below to 0)
-braked = False		  #A variable that doesnt let the program constantly email me
-goingUp = False		  #if its went past the "below" (which tells me to buy) and is now going up, this will be true and will reset the alerter
+below = 0   	#If bitcoin price is below this #, send me a alert (change over to 0)
+over = 0 	#If bitcoin price is under this #, send me a alert (change below to 0)
+braked = False		#A variable that doesnt let the program constantly email me
+goingUp = False		#if its went past the "below" (which tells me to buy) and is now going up, this will be true and will reset the alerter
 goingDown = False 	#if its went past the "over" (which tells me to sell) and is now going up, this will be true and will reset the alerter
 i = 0
 
