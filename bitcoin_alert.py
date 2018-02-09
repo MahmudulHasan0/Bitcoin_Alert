@@ -19,7 +19,7 @@ msg = MIMEMultipart()
 msg['From'] = senderEmail
 msg['To'] = receiverEmail 
 
-#Autharizing Coinbase API:
+#Authorizing Coinbase API:
 API_KEY = 'GET THE KEY FROM COINBASE'	 #Get API KEY, API SECRET, and API version from coinbase
 API_SECRET = 'GET THE KEY FROM COINBASE'
 class CoinbaseWalletAuth(AuthBase):
