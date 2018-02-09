@@ -17,7 +17,7 @@ set **below** to that number.
 
 **senderPass**  is your email password.  
 
-# Autharizing Coinbase API:
+# Authorize Coinbase API:
 **API_KEY = 'GET THE KEY FROM COINBASE'**	
 
 **API_SECRET = 'GET THE KEY FROM COINBASE'**
