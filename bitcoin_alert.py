@@ -12,9 +12,9 @@ goingDown = False 	#if its went past the "over" (which tells me to sell) and is 
 i = 0
 
 #Email Addresses + Messages:
-senderEmail = "Your Email"
-receiverEmail = "your email password"
-senderPass = "Your Email Password"
+senderEmail = "Email you are sending the message from"
+receiverEmail = "Email thats receiving the message"
+senderPass = "The sender email's password"
 msg = MIMEMultipart()
 msg['From'] = senderEmail
 msg['To'] = receiverEmail 
